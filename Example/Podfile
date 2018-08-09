@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'NewGroup13_Example' do
+  pod 'NewGroup13', :path => '../'
+
+  target 'NewGroup13_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
